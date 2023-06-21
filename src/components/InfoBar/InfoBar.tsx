@@ -1,6 +1,3 @@
-import React from 'react'
-import { ParsedQuery } from 'query-string'
-
 import './infobar.css'
 
 interface InfoBarProps {
@@ -11,11 +8,11 @@ const InfoBar = ({ room }: InfoBarProps) => {
     return (
         <div className='infoBar'>
             <div className='leftInnerContainer'>
-                <img className='onlineIcon' src='./onlineIcon.png' alt="online image" />
+                <img className='onlineIcon' src='./onlineIcon.png' alt="online" />
                 <h3>{room}</h3>
             </div>
             <div className='rightInnerContainer'>
-                <a href="/"><img src='./closeIcon.png' alt="close image" /></a>
+                <a href="/"><img src='./closeIcon.png' alt="close" /></a>
             </div>
         </div>
     )

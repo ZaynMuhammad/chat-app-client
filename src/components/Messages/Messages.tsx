@@ -1,4 +1,3 @@
-import React from 'react'
 import './messages.css'
 import ScrollToBottom from 'react-scroll-to-bottom'
 
