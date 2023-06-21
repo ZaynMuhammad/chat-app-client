@@ -11,7 +11,7 @@ import './chat.css'
 
 let socket: Socket
 
-const Chat = ({}) => {
+const Chat = () => {
     const location: Location = useLocation()
     const [name, setName] = useState<string | (string | null)[] | null>('')
     const [room, setRoom] = useState<string | (string | null)[] | null>('')
